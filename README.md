@@ -35,7 +35,7 @@ Another standout feature is the ability to integrate Python control structures, 
 
 #### Debugging and Visualization
 
-PyTorch integrates with libraries like `matplotlib` and offers a suite of debugging tools, namely `torch.utils.bottleneck`, `torch.utils.tester`, and `torch.utils.gdb`.
+PyTorch integrates with libraries like `matplotlib` and offers a suite of debugging tools, namely `torch.utils.bottleneck`.
 
 ### When to Choose PyTorch
 
