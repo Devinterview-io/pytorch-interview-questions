@@ -345,8 +345,8 @@ w = z ** 2 + 10  # Let's say this is our loss function
 w.backward()  # Triggers the full AD process
 
 # Retrieve gradients
-print(x.grad)  # Should be x's derivative: 8 * x => 8 * 3 = 24
-print(y.grad)  # Should be y's derivative: 6 * y => 6 * 4 = 24
+print(x.grad)  # Should be x's derivative: 2 * x * (y**2) => 2 * 3 * (4*4) = 96
+print(y.grad)  # Should be y's derivative: 2 * y * (x**2) => 2 * 4 * (3*3) = 72
 ```
 <br>
 
