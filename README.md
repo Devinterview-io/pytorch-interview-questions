@@ -1,4 +1,4 @@
-# 50 Must-Know PyTorch Interview Questions in 2025
+# 50 Must-Know PyTorch Interview Questions in 2026
 
 <div>
 <p align="center">
